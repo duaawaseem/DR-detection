@@ -1,2 +1,9 @@
 data_dir = '/kaggle/input/diabetic-retinopathy-224x224-2019-data/colored_images'  
 train_csv = '/kaggle/input/diabetic-retinopathy-224x224-2019-data/train.csv' 
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("sovitrath/diabetic-retinopathy-224x224-2019-data")
+
+print("Path to dataset files:", path)
