@@ -1,7 +1,7 @@
 # Diabetic Retinopathy Detection with Deep Learning
 
 ## Overview
-Diabetic Retinopathy (DR) is one of the leading causes of vision loss globally and is commonly associated with long-term diabetes. Early detection and intervention can prevent severe complications. This project leverages deep learning techniques to classify the severity of diabetic retinopathy from retinal fundus images. The model implementation focuses on data preprocessing, data augmentation, and building a ResNet50-based convolutional neural network to enhance predictive accuracy.
+Diabetic Retinopathy (DR) is one of the leading causes of vision loss globally and is commonly associated with long-term diabetes (Kropp _et al_., 2023). Early detection and intervention can prevent severe complications (Kropp _et al_., 2023). This project leverages deep learning techniques to classify the severity of diabetic retinopathy from retinal fundus images. The model implementation focuses on data preprocessing, data augmentation, and building a ResNet50-based convolutional neural network to enhance predictive accuracy.
 
 This project aims to assist researchers and healthcare professionals in automating DR detection and improve accessibility to quality diagnosis, especially in remote areas or healthcare settings with limited resources.
 
@@ -35,3 +35,6 @@ The dataset is highly imbalanced, with a majority of images labeled as "No DR." 
 1. Clone the repository: 
    ```bash
    git clone https://github.com/dswaseem17/diabetic-retinopathy-detection.git
+
+### References ###
+Kropp, M. et al. (2023) ‘Diabetic retinopathy as the leading cause of blindness and early predictor of cascading complications—risks and mitigation’, EPMA Journal, 14(1), pp. 21–42. doi:10.1007/s13167-023-00314-8. 
